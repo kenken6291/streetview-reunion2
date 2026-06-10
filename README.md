@@ -8,7 +8,7 @@
 ## ファイル構成
 
 ```
-streetview-reunion/
+streetview-reunion2/
 ├── index.html          # メインHTML
 ├── style.css           # スタイルシート
 ├── app.js              # アプリケーションロジック
@@ -85,7 +85,7 @@ npx serve .
 
 ```bash
 # プロジェクトフォルダに移動
-cd streetview-reunion
+cd streetview-reunion2
 
 # Gitリポジトリを初期化
 git init
@@ -114,7 +114,7 @@ git commit -m "🎉 初回コミット：あの場所の今アプリ"
 
 1. [github.com](https://github.com) にログイン
 2. 右上「+」→「New repository」をクリック
-3. Repository name: `streetview-reunion`
+3. Repository name: `streetview-reunion2`
 4. **Public** を選択
 5. 「Create repository」をクリック
 
@@ -125,7 +125,7 @@ git commit -m "🎉 初回コミット：あの場所の今アプリ"
 git branch -M main
 
 # リモートリポジトリを登録（URLは自分のものに変更）
-git remote add origin https://github.com/あなたのユーザー名/streetview-reunion.git
+git remote add origin https://github.com/kenken6291/streetview-reunion2.git
 
 # GitHubにプッシュ
 git push -u origin main
@@ -137,7 +137,7 @@ git push -u origin main
 2. 「Settings」→「Pages」を選択
 3. Source: **Deploy from a branch**
 4. Branch: **main** / **/ (root)** を選択して「Save」
-5. しばらく待つと `https://あなたのユーザー名.github.io/streetview-reunion/` で公開されます
+5. しばらく待つと `https://kenken6291.github.io/streetview-reunion2/` で公開されます
 
 ---
 
